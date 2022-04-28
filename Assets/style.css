@@ -63,9 +63,6 @@ h3 {
     text-align: center;
 }
 
-#aboutMe {
-    
-}
 
 #profilePicture {
     width: 119px;
@@ -74,3 +71,31 @@ h3 {
        
 
 }
+
+.workMain {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+#mw1 {
+    margin: 10px 10px;
+    width: 670px;
+    height: 400px;
+}
+
+.workOther {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    height: 50%;
+}
+
+.workPlus {
+    margin: 10px 10px;
+    width: 150px;
+    height: 200px;
+
+}
+
