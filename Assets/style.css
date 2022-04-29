@@ -80,7 +80,7 @@ h3 {
 
 #mw1 {
     margin: 10px 10px;
-    width: 670px;
+    width: 680px;
     height: 400px;
 }
 
@@ -99,3 +99,9 @@ h3 {
 
 }
 
+#contact{
+    Display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
