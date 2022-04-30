@@ -2,7 +2,7 @@ body {
     background: rgb(232, 232, 232);
 }
 
-.test {
+.headerStyle{
     display: flex;
     background: rgb(60, 60, 187);
     justify-content: center;
@@ -76,6 +76,28 @@ h3 {
     display: flex;
     flex-direction:column;
     justify-content: center;
+        
+}
+
+@media (min-width: 1074px){
+    .workMain{
+        flex-direction: row;
+    }
+    .workOther{
+        flex-direction: row;
+    }
+} 
+
+.workMain div{
+    position: relative;
+}
+
+.workMain div p{
+    position: absolute;
+    background: rgb(60, 60, 187);
+    color: rgb(232, 232, 232);
+    padding: 5px;
+    box-shadow: 5px 5px #000;
 }
 
 #mw1 {
@@ -90,6 +112,19 @@ h3 {
     justify-content: space-around;
     width: 50%;
     height: 50%;
+    
+}
+
+.workOther div{
+    position: relative;
+}
+
+.workOther div p{
+    position: absolute;
+    background: rgb(60, 60, 187);
+    color: rgb(232, 232, 232);
+    padding: 5px;
+    box-shadow: 5px 5px #000;
 }
 
 .workPlus {
@@ -103,5 +138,9 @@ h3 {
     Display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background: rgb(60, 60, 187);
+    font-size: 22px;
+    color: rgb(232, 232, 232);
 
 }
+
