@@ -33,18 +33,11 @@ h1 {
     
 }
 
-h2 {
-    font-size: 32pt;
-    color: rgb(25, 25, 114);
-}
-
-p {
-    font-size: 14pt;
-}
-
-h3 {
-    font-size: 32pt;
-    color: rgb(25, 25, 114);
+#profilePicture {
+    width: 119px;
+    height: 175px;
+    padding: 5px;
+       
 }
 
 .navigation {
@@ -64,13 +57,22 @@ h3 {
 }
 
 
-#profilePicture {
-    width: 119px;
-    height: 175px;
-    padding: 5px;
-       
 
+
+h2 {
+    font-size: 32pt;
+    color: rgb(25, 25, 114);
 }
+
+p {
+    font-size: 14pt;
+}
+
+h3 {
+    font-size: 32pt;
+    color: rgb(25, 25, 114);
+}
+
 
 .workMain {
     display: flex;
